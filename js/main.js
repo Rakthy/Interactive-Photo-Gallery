@@ -13,7 +13,7 @@ function filterImage() {
     for (let i = 0; i < a.length; i++) {
       let anchorFilter = a[i].getAttribute("data-title");
         if (anchorFilter.toLowerCase().indexOf(filter) > -1) {
-          photoContainer[i].style.display = "inline-block";
+          photoContainer[i].style.display = "block";
         } else {
           photoContainer[i].style.display = "none";
         }
